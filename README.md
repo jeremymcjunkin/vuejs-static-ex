@@ -22,6 +22,9 @@ npm run unit
 
 # run all tests
 npm test
+
+# deploy to s3
+aws s3 sync ./dist s3://your-bucket-name
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
